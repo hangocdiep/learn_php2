@@ -131,7 +131,7 @@
                 // }
                 // // In kết quả ra màn hình
                 // echo "Tổng của các số trong mảng là: $sum";
-// Viết chương trình PHP để in ra các số Fibonacci trong một khoảng cho trước.
+//10 Viết chương trình PHP để in ra các số Fibonacci trong một khoảng cho trước.
                 // function fibonacci($n) {
                 //     if ($n <= 1) {
                 //         return $n;
@@ -147,7 +147,7 @@
                 //     echo(fibonacci($i) . " ");
                 // }
 
-// Viết chương trình PHP để kiểm tra xem một số có phải là số Armstrong hay không.
+//11 Viết chương trình PHP để kiểm tra xem một số có phải là số Armstrong hay không.
             // function isArmstrong($number) {
             //     $sum = 0;
             //     $temp = $number;
@@ -171,7 +171,7 @@
             //     echo "$number không phải là số Armstrong";
             // }
  
-// Viết chương trình PHP để chèn một phần tử vào một mảng ở vị trí bất kỳ.
+//12 Viết chương trình PHP để chèn một phần tử vào một mảng ở vị trí bất kỳ.
             // // Mảng ban đầu
             // $originalArray = array(1, 2, 3, 4, 5);
 
@@ -185,7 +185,7 @@
             // // In ra mảng mới
             // print_r($originalArray);
 
-// Viết chương trình PHP để loại bỏ các phần tử trùng lặp trong một mảng.
+//13 Viết chương trình PHP để loại bỏ các phần tử trùng lặp trong một mảng.
             // $arr = array("1", "2", "3", "4", "5", "4", "2", "1");
             
             // $len = count($arr);
@@ -207,7 +207,7 @@
             // for ($i = 0; $i < $len; $i++) {
             // echo $arr[$i] . "  <br><br>";
             // }
-// Viết chương trình PHP để tìm vị trí của một phần tử trong một mảng.
+// 14Viết chương trình PHP để tìm vị trí của một phần tử trong một mảng.
             // Mảng số nguyên ban đầu
             // $numbers = array(2, 6, 3, 8, 5, 9, 3);
 
@@ -220,7 +220,7 @@
             //     echo "Không tìm thấy số $searchedNumber trong mảng";
             // }
 
-// Viết chương trình PHP để đảo ngược một chuỗi.
+//15 Viết chương trình PHP để đảo ngược một chuỗi.
 
                 //     function reverseString($str){
                 //         $length = strlen($str);
@@ -239,14 +239,14 @@
                 //     echo "Chuỗi đảo ngược: " . $reverseString;
 
 
-// Viết chương trình PHP để tính số lượng phần tử trong một mảng.
+//16Viết chương trình PHP để tính số lượng phần tử trong một mảng.
                 // $array = array("apple", "banana", "orange", "grape", "kiwi");
 
                 // // Sử dụng hàm count() để tính số lượng phần tử trong mảng
                 // $count = count($array);
 
                 // echo "Số lượng phần tử trong mảng: " . $count;
-// Viết chương trình PHP để kiểm tra xem một chuỗi có phải là chuỗi Palindrome hay không.
+//17 Viết chương trình PHP để kiểm tra xem một chuỗi có phải là chuỗi Palindrome hay không.
 
                 // function isPalindrome($str){
                 //         $str = strtolower(preg_replace("/[^A-Za-z0-9]/", '', $str)); // xóa các ký tự không phải chữ cái và số, và chuyển tất cả thành chữ thường
@@ -269,7 +269,7 @@
                 // echo "Chuỗi 2 là Palindrome: " . $isPalindrome2;
 
 
-// Viết chương trình PHP để đếm số lần xuất hiện của một phần tử trong một mảng.
+//18 Viết chương trình PHP để đếm số lần xuất hiện của một phần tử trong một mảng.
 
                 // $array = array("apple", "banana", "orange", "ape", "kiwi", "banana");
 
@@ -284,7 +284,7 @@
                 // }
 
 
-// Viết chương trình PHP để sắp xếp một mảng theo thứ tự giảm dần.
+// 19Viết chương trình PHP để sắp xếp một mảng theo thứ tự giảm dần.
                         // $array = array(3, 2, 8, 6, 1, 9, 4);
 
                         // // Sử dụng hàm rsort() để sắp xếp mảng theo thứ tự giảm dần
@@ -296,7 +296,7 @@
                         //         echo $value . " ";
                         // }
 
-// Viết chương trình PHP để thêm một phần tử vào đầu hoặc cuối của một mảng.
+//20 Viết chương trình PHP để thêm một phần tử vào đầu hoặc cuối của một mảng.
 
                 // $array = array("apple", "banana", "orange");
 
